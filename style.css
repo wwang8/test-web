@@ -23,6 +23,9 @@ h1 {
 	padding:10px;
 
 }
+h1.title{
+	text-align:center;
+}
 .header-right {
 	float:right;
 	text-align:center;
