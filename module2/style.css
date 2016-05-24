@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+p{
+	clear:both;
+	padding-top:10px;
+}
+h1 {
+	margin:0;
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+.col {
+	float: left;
+	width: 33%;
+	padding:10px;
+}
+.section {
+	background:#eeeeee;
+	border: 1px solid black;
+	padding:10px;
+
+}
+.header-right {
+	float:right;
+	text-align:center;
+	clear:both;
+	border: 1px solid black;
+	width:200px;
+	padding:10px;
+}
+#title-chicken {
+	background: #f2ccff;
+}
+#title-beef {
+	background: #66ff99;
+}
+#title-shushi {
+	background: #ff3300;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col {
+		width: 50%;
+	}
+	.col-full {
+		width:100%;
+	}
+}
+@media (max-width: 767px) {
+  .col {
+		width: 100%;
+	}
+}
